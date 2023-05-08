@@ -1,0 +1,15 @@
+git init --> for initializing the code
+
+git remote add origin "code" --> to link repository to code
+
+git status --> to know the untracked files and files will show in red color
+
+git add . --> to add/upload the data to repository
+
+git status --> to know whether its tracked or not files will show in green color
+
+if tracked we need to commit
+
+git commit -m "message name" --> to commit the code and files will show in white color
+
+git push origin master(or)main --> to push the commit files in branch

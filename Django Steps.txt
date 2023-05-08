@@ -1,0 +1,52 @@
+1.CREATE URL LINK BETWEEN APP AND PROJECT
+	
+	>IN PROJECT URLS:
+			
+			from django.contrib import admin
+			from django.urls import path,include
+
+			urlpatterns = [
+    				path('admin/', admin.site.urls),
+    				path('',include("appname.urls"))
+				]
+
+
+	>WE CREATE URLS FILE IN APP:
+			
+			from django.urls import path
+			from .views import *
+
+			urlpatterns = [
+  				path('', functionname, name='login'),
+    
+				]
+
+2.AFTER LINKING THE APP AND PROJECT URLS
+
+3.GO TO PROJECT SETTING
+
+	INSTALLED_APPS = [
+    				'django.contrib.admin',
+    				'django.contrib.auth',
+    				'django.contrib.contenttypes',
+    				'django.contrib.sessions',
+    				'django.contrib.messages',
+    				'django.contrib.staticfiles',
+    				'appname'
+				]
+
+4.GO TO VIEWS IN APP:
+		
+			>WE WRITE CONDITIONS (OR) FUNCTIONS IN VIEWS
+
+# WE WRITE FUNCTINS IN VIEWS
+# WE WRITE CLASSES IN MODELS
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+check python version or check if python installed or not.
+
+check pip version or check if pip is installed or not, if not installed, install pip
+get-pip.py
+py -m pip install --upgrade pip
+-->
+pip install virtualenv 
+--> 
+virtualenv "env folder" 
+--> 
+env folder name\Scripts\activate 
+--> 
+if we error here, visit this website --> https://www.stanleyulili.com/powershell/solution-to-running-scripts-is-disabled-on-this-system-error-on-powershell/
+-->
+(venv)
+--> 
+pip install django 
+--> 
+django-admin startproject "project name" 
+-->
+get inside project
+cd projectname
+--> 
+python/py/ manage.py startapp "app name" 
+--> 
+project url (include app("appname.urls")
+--> 
+logic,functions and models will do in app

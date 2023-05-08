@@ -1,0 +1,72 @@
+
+* LINEAR DATA STRUCTURE :
+	1.Queue, 2.Linked Lists, 3.Stack, and 4.Arrays.
+
+* NON-LINEAR DATA STRUCTURE :
+	1.Tree, 2.Graph
+
+OOP
+
+1. it is a bottom up approch
+2. program divided into objects
+3. make use of acess modifiers-public,private,protected
+4. it is more sequence
+5. object can move freely with in family members
+6. it suports inheritance
+
+
+POP
+
+1. it is a top down approch
+2. program divided into functions
+3. dont have acess modifiers-public,private,protected
+4. it is less sequence
+5. object can move freely from function to function within program
+6. it doesnt suports inheritance
+
+
+encapulation : the process of hiding of data from the external programs 
+1. public : the data is accessible with in and out of class 
+          : all members variables of the class are by default public
+          
+2. private : 
+3. protected :
+    
+polymorphism : to having multiple forms
+            : we use the samefunction name but in different signatures or multiple types
+
+Generators:
+    
+    1. python genators arw the function that return the traversal object and used to create iterators
+    2. it tranverses the entire items at once
+    3. the Generator can be an expression in which syntax is similar to lit comprehension in python
+    4. it is a lengthy proceess to create iterator that why Generator plays an essential role in 
+        simplifing this process if there ia no value found i iteration,it raises stop Stop Iteration Exception
+     
+     
+Decorators :
+    
+1. Decorators are one of the most helpful and powere ful tools in python,
+2. these are used to modify the behavior of the function.
+3. Decorators provide the flexibility to wrap another function to expand the working of wrapped function
+    without Permanently modifing it.
+4. it is called meta programming where a part of the program attempts to change another part of the program
+    at compile time
+    
+
+
+gets method :
+if we are adding soemthomg i google we get search dat and orter *meta data
+
+
+HEAP :
+
+1. Heap is a special balanced binary tree data structure where root-node key is compared with its children and arranged accordingly. 
+2. A min-heap, a parent node has key value less than its childs.
+3. A max-heap parent node has value greater than its childs.
+
+HASH :
+
+1. Hashing is a technique to convert a range of key values into a range of indexes of an array.
+2. By using hash tables, we can create an associative data storage where data index can be find by providing its key values.
+

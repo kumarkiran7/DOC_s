@@ -1,0 +1,11 @@
+Authentication: THE USER'S (OR) PERSON'S AUTHORITES ARE CHECKED FOR ACCESSING RESOURCES.
+
+1. Authentication process, the identify of users are checked for providing the access to the system.
+2. These both are used for security purpose.
+3. In Authentication process, users (or) persons are verfied.
+4. It needs usally users login details.
+5. Authentication determines whether the person is user (or) not.
+6. Generally it transforms through id tokens.
+7. Authentication can be visible at user end.
+8. It is identity with username, password, face recognitation.
+9. Employee of company are required to authenticate through the network before accessing company email.
